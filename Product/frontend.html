@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <style>
+    body {
+    background-image: url("thankyou slide.jpg");
+    background-size: cover;
+}
+label {
+    color: aliceblue;
+}
+  </style>
+</head>
+<body, background="thankyou slide.jpg">
+<div class="container">
+    <div>
+        <form class="need-validated" id="formData">
+
+            <div class="form-group">
+                <div class="col-xs-3">
+                <label for="tranaction Type">Transaction Type:</label>
+                <select class="form-control" id="TranactionType" name="Transaction Type" required>
+                  <option>Sales</option>
+                  <option>Mortgage</option>
+                  <option>Gifts</option>
+                </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-xs-3">
+                <label for="area">Area:</label>
+                <select class="form-control" id="area" name="Area" required>
+                  <option>AKOYA OXYGEN</option>  
+                  <option>AL BARARI</option>  
+                  <option>AL FURJAN</option>  
+                  <option>AL KHAIL HEIGHTS</option>  
+                  <option>ARABIAN RANCHES I</option>  
+                  <option>ARJAN</option>  
+                  <option>Al Bada</option>  
+                  <option>Al Baraha</option>  
+                  <option>Al Barsha First</option>  
+                  <option>Al Barsha Second</option>  
+                  <option>Al Barsha Third</option>  
+                  <option>Al Barshaa South First</option>  
+                  <option>Al Barshaa South Second</option>  
+                  <option>Al Barshaa South Third</option>  
+                  <option>Al Buteen</option>  
+                  <option>Al Dhagaya</option>  
+                  <option>Al Garhoud</option>  
+                  <option>Al Goze First</option>  
+                  <option>Al Goze Fourth</option>  
+                  <option>Al Goze Industrial First</option>  
+                  <option>Al Goze Industrial Fourth</option>  
+                  <option>Al Goze Industrial Second</option>  
+                  <option>Al Goze Industrial Third</option>  
+                  <option>Al Goze Second</option>  
+                  <option>Al Goze Third</option>  
+                  <option>Al Hamriya</option>  
+                  <option>Al Hudaiba</option>  
+                  <option>Al Jafliya</option>  
+                  <option>Al Karama</option>  
+                  <option>Al Khabeesi</option>  
+                  <option>Al Kheeran</option>  
+                  <option>Al Kifaf</option>  
+                  <option>Al Mamzer</option>  
+                  <option>Al Manara</option>  
+                  <option>Al Mararr</option>  
+                  <option>Al Mezhar First</option>  
+                  <option>Al Mezhar Second</option>  
+                  <option>Al Murqabat</option>  
+                  <option>Al Muteena</option>  
+                  <option>Al Nahda First</option>  
+                  <option>Al Nahda Second</option>  
+                  <option>Al Qusais First</option>  
+                  <option>Al Qusais Industrial Fifth</option>  
+                  <option>Al Qusais Industrial Fourth</option>  
+                  <option>Al Qusais Industrial Second</option>  
+                  <option>Al Qusais Industrial Third</option>  
+                  <option>Al Qusais Second</option>  
+                  <option>Al Qusais Third</option>  
+                  <option>Al Raffa</option>  
+                  <option>Al Ras</option>  
+                  <option>Al Rashidiya</option>  
+                  <option>Al Rega</option>  
+                  <option>Al Sabkha</option>  
+                  <option>Al Saffa First</option>  
+                  <option>Al Saffa Second</option>  
+                  <option>Al Safouh First</option>  
+                  <option>Al Satwa</option>  
+                  <option>Al Suq Al Kabeer</option>  
+                  <option>Al Thanyah Third</option>  
+                  <option>Al Twar First</option>  
+                  <option>Al Twar Second</option>  
+                  <option>Al Twar Third</option>  
+                  <option>Al Warqa First</option>  
+                  <option>Al Warqa Fourth</option>  
+                  <option>Al Warqa Second</option>  
+                  <option>Al Warqa Third</option>  
+                  <option>Al Wasl</option>  
+                  <option>Al Yufrah 2</option>  
+                  <option>BARSHA HEIGHTS</option>  
+                  <option>BLUEWATERS</option>  
+                  <option>BURJ KHALIFA</option>  
+                  <option>BUSINESS BAY</option>  
+                  <option>CITY WALK</option>  
+                  <option>DAMAC HILLS</option>  
+                  <option>DISCOVERY GARDENS</option>  
+                  <option>DMCC-EZ2</option>  
+                  <option>DOWN TOWN JABAL ALI</option>  
+                  <option>DUBAI CREEK HARBOUR</option>  
+                  <option>DUBAI HEALTHCARE CITY - PHASE 1</option>  
+                  <option>DUBAI HEALTHCARE CITY - PHASE 2</option>  
+                  <option>DUBAI HILLS</option>  
+                  <option>DUBAI INDUSTRIAL CITY</option>  
+                  <option>DUBAI INVESTMENT PARK FIRST</option>  
+                  <option>DUBAI INVESTMENT PARK SECOND</option>  
+                  <option>DUBAI LAND RESIDENCE COMPLEX</option>  
+                  <option>DUBAI MARINA</option>  
+                  <option>DUBAI MARITIME CITY</option>  
+                  <option>DUBAI PRODUCTION CITY</option>  
+                  <option>DUBAI SCIENCE PARK</option>  
+                  <option>DUBAI SOUTH</option>  
+                  <option>DUBAI SPORTS CITY</option>  
+                  <option>DUBAI STUDIO CITY</option>  
+                  <option>DUBAI WATER CANAL</option>  
+                  <option>DUBAI WATER FRONT</option>  
+                  <option>Dubai International Airport</option>  
+                  <option>EMAAR SOUTH</option>  
+                  <option>EMIRATE LIVING</option>  
+                  <option>Eyal Nasser</option>  
+                  <option>GRAND VIEWS</option>  
+                  <option>HORIZON</option>  
+                  <option>Hadaeq Sheikh Mohammed Bin Rashid</option>  
+                  <option>Hor Al Anz</option>  
+                  <option>Hor Al Anz East</option>  
+                  <option>IBN BATTUTA </option>  
+                  <option>INTERNATIONAL CITY PH 1</option>  
+                  <option>INTERNATIONAL CITY PH 2 & 3</option>  
+                  <option>Island 2</option>  
+                  <option>JADDAF WATERFRONT</option>  
+                  <option>JUMEIRA BAY</option>  
+                  <option>JUMEIRAH BEACH RESIDENCE</option>  
+                  <option>JUMEIRAH GOLF</option>  
+                  <option>JUMEIRAH HEIGHTS</option>  
+                  <option>JUMEIRAH ISLANDS</option>  
+                  <option>JUMEIRAH LAKES TOWERS</option>  
+                  <option>JUMEIRAH LIVING</option>  
+                  <option>JUMEIRAH PARK</option>  
+                  <option>JUMEIRAH VILLAGE CIRCLE</option>  
+                  <option>JUMEIRAH VILLAGE TRIANGLE</option>  
+                  <option>Jabal Ali First</option>  
+                  <option>Jabal Ali Industrial First</option>  
+                  <option>Jumeirah First</option>  
+                  <option>Jumeirah Second</option>  
+                  <option>Jumeirah Third</option>  
+                  <option>LA MER</option>  
+                  <option>LIVING LEGENDS</option>  
+                  <option>LIWAN</option>  
+                  <option>MAJAN</option>  
+                  <option>MARSA AL ARAB</option>  
+                  <option>MBR DISTRICT 1</option>  
+                  <option>MBR DISTRICT 7</option>  
+                  <option>MEDYAN RACE COURSE VILLAS</option>  
+                  <option>MEYDAN AVENUE</option>  
+                  <option>MEYDAN HEIGHTS</option>  
+                  <option>MEYDAN ONE</option>  
+                  <option>MILLENNIUM</option>  
+                  <option>MINA RASHID</option>  
+                  <option>MOTOR CITY</option>  
+                  <option>MUDON</option>  
+                  <option>Madinat Dubai Almelaheyah</option>  
+                  <option>Mankhool</option>  
+                  <option>Marsa Dubai</option>  
+                  <option>Me'Aisem First</option>  
+                  <option>Mena Jabal Ali</option>  
+                  <option>Mirdif</option>  
+                  <option>Muhaisanah First</option>  
+                  <option>Muhaisanah Fourth</option>  
+                  <option>Muhaisanah Second</option>  
+                  <option>Muhaisanah Third</option>  
+                  <option>NAD AL SHEBA GARDENS</option>  
+                  <option>Nad Al Hamar</option>  
+                  <option>Nad Al Shiba First</option>  
+                  <option>Nad Al Shiba Fourth</option>  
+                  <option>Nad Al Shiba Second</option>  
+                  <option>Nad Al Shiba Third</option>  
+                  <option>Nad Shamma</option>  
+                  <option>Naif</option>  
+                  <option>Oud Al Muteena First</option>  
+                  <option>Oud Al Muteena Second</option>  
+                  <option>Oud Metha</option>  
+                  <option>PALM JUMEIRAH</option>  
+                  <option>PEARL JUMEIRA</option>  
+                  <option>POLO TOWNHOUSES IGO</option>  
+                  <option>Port Saeed</option>  
+                  <option>REMRAAM</option>  
+                  <option>Ras Al Khor Industrial First</option>  
+                  <option>Ras Al Khor Industrial Second</option>  
+                  <option>Ras Al Khor Industrial Third</option>  
+                  <option>Rega Al Buteen</option>  
+                  <option>SAMA AL JADAF</option>  
+                  <option>SILICON OASIS</option>  
+                  <option>SOBHA HEARTLAND</option>  
+                  <option>SUFOUH GARDENS</option>  
+                  <option>TECOM SITE A</option>  
+                  <option>TECOM SITE D</option>  
+                  <option>THE GREENS</option>  
+                  <option>THE LAKES</option>  
+                  <option>THE WORLD</option>  
+                  <option>TOWN SQUARE</option>  
+                  <option>Trade Center First</option>  
+                  <option>Trade Center Second</option>  
+                  <option>Um Al Sheif</option>  
+                  <option>Um Hurair First</option>  
+                  <option>Um Ramool</option>  
+                  <option>Um Suqaim First</option>  
+                  <option>Um Suqaim Second</option>  
+                  <option>Um Suqaim Third</option>  
+                  <option>Wadi Al Safa 3</option>  
+                  <option>Warsan First</option>  
+                  <option>Zaabeel First</option>  
+                  <option>Zaabeel Second</option>  
+
+                </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <div class="col-xs-3">
+
+                <label for="room">Rooms:</label>
+                <select class="form-control" id="room" name="Room" required>
+                  <option>1 B/R</option>
+                  <option>2 B/R</option>
+                  <option>Studio</option>
+                  <option>3 B/</option>
+                  <option>OtherRooms</option>
+                </select>
+              </div>
+            </div>
+
+              <div class="form-group row">
+                <div class="col-xs-3">
+
+                <label for="nearestMetro">Nearest Metro:</label>
+                <select class="form-control" id="nearestMetro" name="Nearest Metro" required>
+                  <option>OtherMetro                          </option>
+                  <option>Buj Khalifa Dubai Mall Metro Station</option>
+                  <option>Business Bay Metro Station          </option>
+                  <option>Nakheel Metro Station               </option>
+                  <option>Dubai Internet City                 </option>
+                  <option>First Abu Dhabi Bank Metro Station  </option>
+                  <option>Damac Properties                    </option>
+                  <option>Creek Metro Station                 </option>
+                  <option>Rashidiya Metro Station             </option>
+                  <option>Sharaf Dg Metro Station             </option>
+                  <option>Jumeirah Lakes Towers </option>
+                </select>
+              </div>
+            </div>
+
+              <div class="form-group ">
+                <div class="col-xs-3">
+
+                <label for="nearestMall">Nearest Mall:</label>
+                <select class="form-control" id="nearestMall" name="Nearest Mall" required>
+                  <option>Dubai Mall          </option>
+                  <option>Marina Mall         </option>
+                  <option>Mall of the Emirates</option>
+                  <option>City Centre Mirdif  </option>
+                  <option>Ibn-e-Battuta Mall</option>
+                </select>
+              </div>
+            </div>
+
+
+              <div class="form-group">
+                <div class="col-xs-3">
+
+                <label for="nearestLandmark">Nearest Landmark:</label>
+                <select class="form-control" id="nearestLandmark" name="Nearest Landmark" required>
+                  <option>Downtown Dubai              </option>
+                  <option>Sports City Swimming Academy</option>
+                  <option>Burj Al Arab                </option>
+                  <option>Motor City                  </option>
+                  <option>Burj Khalifa                </option>
+                  <option>Dubai International Airport</option>
+                  <option>OtherLandmark</option>
+                </select>
+              </div>
+            </div>
+
+
+            <div class="form-group row">
+                <div class="col-xs-3">
+
+              <label for="parking">Parking:</label>
+              <input type="text" class="form-control" id="parking" value="OtherParking" name="Parking" required>
+            </div>
+        </div>
+
+            <button id="submit" type="submit" class="btn btn-default " style="margin-left: 15px;">Get Price</button>
+          </form>
+          <br>
+          <br>
+          <div class=" ">
+            <div class="col-xs-3">
+
+          <label for="propertySize">Add Property Size m.sq:</label>
+          <input type="text" class="form-control text-center" id="propertySize" value="0" name="propsize">
+        </div>
+        </div>
+
+            <div class="col-xs-3">
+             <div class="text-center", style="color: aliceblue;">Meter Price</div>
+             <div id="meterPrice" class="well text-center">0</div>
+            </div>
+
+            <div class="col-xs-3">
+                <div class="text-center", style="color: aliceblue;">Property Price</div>
+                <div id = "proPrice" class="well text-center">0</div>
+               </div>
+
+    </div>
+  
+</div>
+
+</body>
+</html>
+
+
+<script>
+
+// Attach a submit handler to the form
+$( "#formData" ).submit(function( event ) {
+ 
+ // Stop form from submitting normally
+ event.preventDefault();
+
+ // Get some values from elements on the page:
+ var dataArray = $('#formData').serializeArray(),
+    dataObj = {};
+
+        $(dataArray).each(function(i, field){
+          dataObj[field.name] = field.value;
+        });
+
+    var url = 'http://127.0.0.1:5000/predict'
+
+ // Send the data using post
+ var posting = $.post( url, JSON.stringify(dataObj) );
+
+ // Put the results in a div
+ posting.done(function( data ) {
+    console.log($("propertySize").val())
+    data = (Number(data)).toFixed(2)
+   $( "#meterPrice" ).empty().append( data );
+
+   $("#proPrice").empty().append(data * (Number($("#propertySize").val())))
+ });
+});
+
+
+</script>
